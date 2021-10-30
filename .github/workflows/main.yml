@@ -2,10 +2,10 @@ name: A workflow
 on: push
 jobs:
   build:
-    name: Hello world action
+    name: Action Workflow
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "Mona"
+          MY_NAME: "Chris"
